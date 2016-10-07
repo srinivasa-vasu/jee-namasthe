@@ -38,35 +38,35 @@ public class HelloWorld {
     @GET
     @Path("/english")
     @Produces({ "text/html" })
-    String hello() {
+    public String hello() {
         return "Hello World!";
     }
     
     @GET
     @Path("/hindi")
     @Produces({ "text/html" })
-    String hindi() {
+    public String hindi() {
         return "Namasthe!";
     }
     
     @GET
     @Path("/tamil")
     @Produces({ "text/html" })
-    String tamil() {
+    public String tamil() {
         return "Vanakkam!";
     }
     
     @GET
     @Path("/french")
     @Produces({ "text/html" })
-    String french() {
+    public String french() {
         return "Bonjour!";
     }
     
     @GET
     @Path("/spanish")
     @Produces({ "text/html" })
-    String german() {
+    public String german() {
         return "Hola!";
     }
 
