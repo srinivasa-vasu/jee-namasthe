@@ -42,6 +42,8 @@
 
 		<!-- JBoss dependency versions -->
 		<version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
+	    	<version.jboss.spec.javaee.7.0>1.0.3.Final-redhat-2</version.jboss.spec.javaee.7.0>
+
 
 		<!-- Define the version of the JBoss BOMs we want to import to specify 
 			tested stacks. -->
@@ -54,6 +56,9 @@
 		<!-- maven-compiler-plugin -->
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
+	    
+	    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
 	</properties>
 
     <!-- Activate JBoss Product Maven repository.
